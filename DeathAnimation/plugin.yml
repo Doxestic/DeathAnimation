@@ -1,0 +1,6 @@
+---
+name: DeathAnimation
+version: 1.0
+main: Doxestic\DeathAnimation\Main
+api: 3.0.0
+...
