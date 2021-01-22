@@ -30,7 +30,7 @@ class DeleteHeadTask extends Task
 			$this->main->getScheduler()->cancelTask($this->getTaskId());
 		}else{
 			$this->time--;
-			$this->entity->setNameTag("§aHead of §d".$this->entity->player->getName()."\n§6Time to delete:\n§c".(string)$this->time);
+			$this->entity->setNameTag("§aHead of §d".$this->entity->player->getName()."\n§6Time until delete:\n§c".(string)$this->time);
 		}
 		// TODO: Implement onRun() method.
 	}
